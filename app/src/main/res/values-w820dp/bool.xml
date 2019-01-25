@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <bool name="use_activity" tools:ignore="MissingDefaultResource">true</bool>
+    <bool name="use_provider" tools:ignore="MissingDefaultResource">false</bool>
+
+</resources>
