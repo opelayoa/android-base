@@ -6,3 +6,69 @@
     <dimen name="list_padding">0dp</dimen>
     <dimen name="list_item_padding">16dp</dimen>
 </resources>
+
+
+POST http://201.161.90.103:8080/WEBT3BRutas2018/RegistraActividad
+    Content-Type: application/json; charset=UTF-8
+    Content-Length: 238
+    Authorization: Basic b21hcjpkYW51
+    Accept: application/json
+{"activityId":1,"activityStatus":0,"date":"22-01-2019 11:43","description":"Inicio de viaje","id":1,"latitude":19.431977,"logStatus":0,"longitude":-99.168842,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20}
+
+
+POST http://201.161.90.103:8080/WEBT3BRutas2018/RegistraActividad
+    Content-Type: application/json; charset=UTF-8
+    Content-Length: 238
+    Authorization: Basic b21hcjpkYW51
+    Accept: application/json
+{
+	"activityId":1,
+	"activityStatus":0,
+	"date":"22-01-2019 11:43",
+	"description":"Inicio de viaje",
+	"id":1,
+	"latitude":19.431977,
+	"logStatus":0,
+	"longitude":-99.168842,
+	"odometer":null,
+	"regionId":1000,
+	"storeId":0,
+	"tripId":1,
+	"truckId":12,
+	"userId":20
+}
+
+POST http://201.161.90.103:8080/WEBT3BRutas2018/RegistraActividadCosto
+    Content-Type: application/json; charset=UTF-8
+    Content-Length: 238
+    Authorization: Basic b21hcjpkYW51
+    Accept: application/json
+{
+	"activityId":1,
+	"activityStatus":0,
+	"date":"22-01-2019 11:43",
+	"description":"Inicio de viaje",
+	"id":1,
+	"latitude":19.431977,
+	"logStatus":0,
+	"longitude":-99.168842,
+	"fuel_liters": 0.0,
+    "fuel_price": 0.0,
+	"odometer":null,
+	"regionId":1000,
+	"storeId":0,
+	"tripId":1,
+	"truckId":12,
+	"userId":20
+}
+
+
+
+D/OkHttp: --> POST http://201.161.90.103:8080/WEBT3BRutas2018/CargaInfoViajes
+    Content-Type: application/json; charset=UTF-8
+    Content-Length: 11351
+    Authorization: Basic b21hcjpkYW51
+    Accept: application/json
+    [{"activityId":1,"activityStatus":3,"date":"22-01-2019 11:43","description":"Inicio de viaje","id":1,"latitude":19.431977,"logStatus":0,"longitude":-99.168842,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR ENCENDIDO MOTOR","id":2,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR CAJA","id":3,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR RAMPA","id":4,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR ELECTRICO","id":5,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR FRENOS","id":6,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Check: REVISAR DIESEL","id":7,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":2,"activityStatus":3,"date":"22-01-2019 11:48","description":"Inicio de viaje: 1","id":8,"latitude":19.4319655,"logStatus":0,"longitude":-99.1688683,"odometer":554588.0,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":3,"activityStatus":3,"date":"22-01-2019 11:48","description":"Inicio carga de tarimas del almacen.","id":9,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 1","id":10,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 2","id":11,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 3","id":12,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 4","id":13,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 5","id":14,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":3,"activityStatus":3,"date":"22-01-2019 11:48","description":"Inicio carga de tarimas del almacen.","id":15,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 1","id":16,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,
+D/OkHttp: "activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 2","id":17,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 3","id":18,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 4","id":19,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 5","id":20,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 6","id":21,"latitude":19.4319764,"logStatus":0,"longitude":-99.1688606,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 7","id":22,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 8","id":23,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":4,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada: 9","id":24,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":7,"activityStatus":3,"date":"22-01-2019 11:48","description":"Descarga en tienda","id":25,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":543258.0,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 1","id":26,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 2","id":27,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 3","id":28,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 4","id":29,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 5","id":30,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688511,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":9,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima cargada en tienda: 1","id":31,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":449,"tripId":1,"truckId":12,"userId":20},{"activityId":7,"activityStatus":3,"date":"22-01-2019 11:48","description":"Descarga en tienda","id":32,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":654358.0,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20}
+    ,{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 1","id":33,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 2","id":34,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 3","id":35,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 4","id":36,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 5","id":37,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 6","id":38,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 7","id":39,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:48","description":"Tarima descargada en tienda: 8","id":40,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":8,"activityStatus":3,"date":"22-01-2019 11:49","description":"Tarima descargada en tienda: 9","id":41,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":9,"activityStatus":3,"date":"22-01-2019 11:49","description":"Tarima cargada en tienda: 1","id":42,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":778,"tripId":1,"truckId":12,"userId":20},{"activityId":10,"activityStatus":3,"date":"22-01-2019 11:49","description":"Regreso a almacen","id":43,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":545658.0,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":11,"activityStatus":3,"date":"22-01-2019 11:49","description":"Decarga de Item en Almacen: 1","id":44,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20},{"activityId":11,"activityStatus":3,"date":"22-01-2019 11:49","description":"Decarga de Item en Almacen: 2","id":45,"latitude":19.4319672,"logStatus":0,"longitude":-99.1688522,"odometer":null,"regionId":1000,"storeId":0,"tripId":1,"truckId":12,"userId":20}]

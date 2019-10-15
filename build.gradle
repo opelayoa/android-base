@@ -19,6 +19,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://s3.amazonaws.com/sdk-ga-releases.cloudmi.datami.com/android/mvn/smisdk/'
+        }
     }
 }
 

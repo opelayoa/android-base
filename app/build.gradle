@@ -50,4 +50,6 @@ dependencies {
 
     implementation 'commons-net:commons-net:3.6'
     implementation 'commons-codec:commons-codec:1.9'
+
+    implementation 'com.datami:smisdk:+'
 }

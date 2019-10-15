@@ -11,7 +11,6 @@ import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -34,11 +33,12 @@ import mx.com.tiendas3b.internetcompartido.R;
 import mx.com.tiendas3b.internetcompartido.files.adapters.FileListAdapter;
 import mx.com.tiendas3b.internetcompartido.files.dto.FileDto;
 import mx.com.tiendas3b.internetcompartido.files.util.Constants;
+import mx.com.tiendas3b.internetcompartido.root.BaseActivity;
 import mx.com.tiendas3b.internetcompartido.util.DialogFactory;
 
 import static mx.com.tiendas3b.internetcompartido.files.util.Constants.FILE_LOADED;
 
-public class FileListActivity extends AppCompatActivity {
+public class FileListActivity extends BaseActivity {
 
     private static final int REQUEST_CODE = 6384; // onActivityResult request
 
@@ -274,5 +274,6 @@ public class FileListActivity extends AppCompatActivity {
         }
 
     }
+
 
 }
